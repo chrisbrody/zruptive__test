@@ -4,30 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feature 1 Zruptive Project</title>
+    <title>Feature Repo Zruptive Project</title>
+
+    <style>
+        img {
+            max-width: 100%;
+        }
+        li {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+        pre {
+            color:red;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .title {
+            font-weight: bold;
+            /* text-decoration: underline; */
+            text-transform: capitalize;
+        }
+    </style>
 </head>
 <body>
-    <h1>Feature 1 Zruptive Project</h1>
+    <h1>Feature Rep Zruptive Project</h1>
     <h2>Update Github 'repo structure' so we can demonstrate the use case:</h2>
-    <ul>
-        <li>developer makes a change to their feature branch</li>
-            <ol>
-                <li>developer pulls master branch from Github using Git in a terminal: <pre>git pull origin master or git clone * repo url *</pre></li>
-                <li>developer switches to the desired branch <pre>git checkout -b feature1</pre></li>
-                <li>changes are made to the new feature1 branch and committed <pre>git commit -m "enter what was changed here"</pre></li>
-                <li>changes are pushed from the local repo to the remote repo feature1 branch <pre>git push origin -feature1</pre></li>
-                
-            </ol>
-        <li>developer submits a pull request from Github page
-            <ol>
-                <li></li>
-            </ol>
-            <li>feature1 branch is deleted in remote repo <pre>this is done after the pull request approval</pre></li>
+    <hr>
+    <ol>
+        <li>
+            <p class="title">developer makes a change to their feature branch</p>
+            <ul>
+                <li>
+                    <p>developer pulls master branch from Github using Git in a terminal: <pre>git pull origin master or git clone * repo url *</pre></p>
+                </li>
+                <li>
+                    <p>developer switches to the desired branch <pre>git checkout -b feature1</pre></p>
+                </li>
+                <li>
+                    <p>changes are made to the new feature1 branch and committed <pre>git commit -m "enter what was changed here"</pre></p>
+                </li>
+                <li>
+                    <p>changes are pushed from the local repo to the remote repo feature1 branch <pre>git push origin -feature1</pre></p>
+                </li>      
+            </ul>
         </li>
-        <li>lead developer reviews/approves/denys pull request from Github page</li>
-        <li>code merged into master when pull request is approved</li>
-    </ul>
-    <h3>Completion of feature 1 <a href="./feature.html">feature 1</a></h3>
-    <h3>Link to <a href="./feature2.html">feature 2</a></h3>
+        <li>
+            <p class="title">developer submits a pull request from Github page</p>
+            <ul>
+                <li>
+                    <p>from the remote repo page, select "pull requests"</p>
+                    <img src="./pr1.PNG" />
+                </li>
+                <li>
+                    <p>from the new page, select "New pull request"</p>
+                    <img src="./pr2.PNG" />
+                </li>
+                <li>
+                    <p>here the dev selects the branch to push, in are case it's feature2</p>
+                    <img src="./pr3.PNG" />
+                </li>
+                <li>
+                    <p>here the dev can review the changes there they made before going through with the pull request</p>
+                    <img src="./pr4.PNG" />
+                </li>
+                <li>
+                    <p>finally, the dev can leave any comments for the reviewer</p>
+                    <img src="./pr5.PNG" />
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p class="title">lead developer reviews/approves/denys pull request from Github page</p>
+            <ul>
+                <li>
+                    <p>Once a pull request has been made, the maintainer will see a message on the screen like this.</p>
+                    <img src="./pull1.PNG" />
+                </li>
+                <li>
+                    <p>here all pull requests can be viewed, here we just have 1 to select "created feature 2"</p>
+                    <img src="./pull2.PNG" />
+                </li>
+                <li>
+                    <p>once inside the request, all the different commits and files can be viewed.</p>
+                    <img src="./pull3.PNG" />
+                </li>
+                <li>
+                    <p>if everything looks good select "Merge pull request".</p>
+                    <img src="./pull7.PNG" />
+                </li>
+                
+            </ul>
+        </li>
+        <li>
+            <p class="title">code merged into master when pull request is approved</p>
+            <ul>
+                <li>
+                    <p>once this message is displayed the code has been merged into the master branch.  The feature2 repo can be deleted by selecting "Delete branch"</p>
+                    <img src="./pull4.PNG" />
+                </li>
+                <li>
+                    <p>in a case when the branch needs to be deleted later, hover over master branch button</p>
+                    <img src="./pull8.PNG" />
+                    <p>Select "View all branches" at the bottom</p>
+                    <img src="./pull5.PNG" />
+                </li>
+                <li>
+                    <p>from this page, choose the branch to delete</p>
+                    <img src="./pull6.PNG" />
+                </li>
+            </ul>
+        </li>
+    </ol>
 </body>
 </html>
